@@ -1,0 +1,22 @@
+body {
+    background-color: #202225;
+    color: skyblue;
+    width: 300px;
+    margin: 68px auto;
+    text-align: center;
+    font-size: 13px;
+}
+
+#data {
+    text-align: left;
+    margin-left: 18px;
+}
+
+#axes_img {
+    width: 280px;
+    margin-top: 40px;
+}
+
+.invisible {
+    display: none;
+}
