@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';
+    connect-src 'none';
+    script-src 'self';
+    img-src 'self';
+    style-src 'self';
+    style-src-elem 'self';
+    font-src 'self';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sikdar's Accelerometer</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Acceleration (m/s<sup>2</sup>) :</h1>
+        <div id="data">
+            <h3 id="acc_x">X axis : <span>0</span></h3>
+            <h3 id="acc_y">Y axis : <span>0</span></h3>
+            <h3 id="acc_z">Z axis : <span>0</span></h3>
+        </div>
+        <img id="axes_img" src="./axes.jpg">
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
